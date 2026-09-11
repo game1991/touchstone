@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "timeout": 10,
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.js\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "touchstone-marketplace",
+  "description": "touchstone — project conclusion lifecycle management plugin",
+  "owner": {"name": "game1991"},
+  "plugins": [
+    {
+      "name": "touchstone",
+      "description": "Per-repo verified-conclusion ledger (PCR) with five-state lifecycle, auto-loaded via SessionStart hook",
+      "version": "0.1.0",
+      "source": "./"
+    }
+  ]
+}

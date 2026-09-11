@@ -1,0 +1,8 @@
+{
+  "name": "touchstone",
+  "description": "Project conclusion lifecycle management: a per-repo, time-ordered record of verified conclusions (PCR format) with a five-state machine (BETA/RC/GA/SUPERSEDED/EOL). AI drafts, human archives; SessionStart hook auto-injects the fact-base index.",
+  "version": "0.1.0",
+  "author": "game1991",
+  "license": "MIT",
+  "keywords": ["memory", "knowledge-management", "adr", "conclusions", "lifecycle"]
+}
